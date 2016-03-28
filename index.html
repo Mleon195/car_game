@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- set viewport to device width to make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Car Race Game</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header text-center">
+          
+        <h1>Race Car Game</h1>
+        </div>
+        <div id="track">
+          <div class="player" data-key="q"><img src="car1.png" alt="green car" height="60" width="60"></div>
+          <div class="player" data-key="p"><img src="car2.png" alt="red car" height="60" width="60"></div>
+        </div>
+        <p>Move Green car by pressing the Q key  -- Move red car by pressing the P key</p>
+        <button class="btn btn-lg btn-reset tmp-hidden" id="reset">Race Again</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <!-- confetti js -->
+  <!-- <script type="text/javascript" src="scripts/confetti.js"></script>  -->
+
+  <!-- custom script -->
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
